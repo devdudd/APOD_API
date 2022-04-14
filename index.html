@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>APOD</title>
+</head>
+
+<body>
+    <header>
+        <img id="imgHeader" src="./IMG/nasa-logo-1000x850.png" width="210" height="180" alt="Logo da Nasa">
+        <h1>APOD</h1>
+        <p>A Nasa agora permite que cada pessoa verifique na internet qual foto do universo foi tirada no dia de seu próprio aniversário — ou de qualquer outra data escolhida de interesse do usuário. Esse recurso foi criado para comemorar os 30 anos do telescópio espacial Hubble, explica a agência americana. Divirta-se!</p>
+        <input type="date" name="data" id="data" min="1995-06-16">
+        <input type="submit" value="enviar" id="submit">
+    </header>
+    <main>
+        <section>
+            <div class="retornos">
+                <h2 id="title"></h2>
+                <img id="picture" src="" width="400" height="290">
+                <iframe frameborder="0" border="0px" id="video" src="" width="500" height="290"></iframe>
+                <p id="explanation"></p>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>

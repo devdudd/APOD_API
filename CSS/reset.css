@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../IMG/astro1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    color: var(--basico);
+    font-family: 'Oxygen', sans-serif;  
+}
+:root {
+    --primaria: #890a1d;
+    --secundaria: #f25c4d;
+    --terciaria: #5074c9;
+    --basico: #b2bdd0;
+}
